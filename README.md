@@ -58,8 +58,8 @@ For example:
 
 ## Defining the Version
 
-By default we're installing the version of Promscale declared in the [`bin/compile`](https://github.com/Scalingo/prometheus-buildpack/blob/master/bin/compile#L16) file. But if you want to use a specific version, you can define the environment variable `PROMETHEUS_VERSION`.
+By default we're installing the version declared in the [`bin/compile`](https://github.com/Scalingo/prometheus-buildpack/blob/master/bin/compile#L16) file. But if you want to use a specific version, you can define the environment variable `PROMETHEUS_VERSION`.
 
 ```shell
-$ scalingo env-set PROMETHEUS_VERSION=2.26.0
+$ scalingo env-set PROMETHEUS_VERSION=3.5.0
 ```
