@@ -5,6 +5,7 @@ set -e
 BUILD_DIR=${1:-}
 CACHE_DIR=${2:-}
 ENV_DIR=${3:-}
+
 basedir="$( cd -P "$( dirname "$0" )" && pwd )"
 BUILDPACK_DIR="$(readlink -f ${basedir}/..)"
 source ${BUILDPACK_DIR}/lib/common.sh
